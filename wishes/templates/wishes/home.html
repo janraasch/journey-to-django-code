@@ -1,0 +1,5 @@
+<form action="{% url 'wishes:home' %}" method="post">
+    {% csrf_token %}
+    <textarea name="text">{{ wish.text }}</textarea>
+    <button type="submit">Save</button>
+</form>
