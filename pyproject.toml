@@ -10,6 +10,7 @@ dependencies = [
 
 [dependency-groups]
 dev = [
+    "djhtml>=3.0.10",
     "ruff>=0.14.8",
 ]
 
