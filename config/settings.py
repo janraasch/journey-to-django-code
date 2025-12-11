@@ -27,6 +27,8 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+# Use admin login page if user is not authenticated
+LOGIN_URL = "/admin/login/"
 
 # Application definition
 
